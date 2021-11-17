@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: o;
+}
+.navbar-nav{
+    font-size: 30px;
+}
+.navbar{
+    position: sticky;
+    top: o;
+    z-index: 1;
+}
+.progress{
+    height: 30px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+.progress:hover{
+    transform: scale(1.1);
+}
+.portfolio{
+    margin: 10;
+    padding: 10;
+}
+
+.card{
+    transition: all 0.5s ease;
+}
+.card img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+.card:hover{
+    transition: scale(1.1);
+    box-shadow: 1px 2px 10px black;
+}
